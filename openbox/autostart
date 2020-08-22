@@ -1,0 +1,17 @@
+
+ 
+ 
+cp -r ~/Public/iconchanger/zero/settings.ini ~/.config/gtk-3.0/ &
+feh --bg-fill ~/Pictures/wallpapers\ /ocean.jpg &
+xrdb merge ~/Public/xresources/ocean/.Xresources &
+
+cp -r ~/Public/poly/obwhite/polybar/ ~/.config/
+~/.config/polybar/launch.sh
+
+plank &
+
+
+ 
+cp -r ~/Public/rofi/openbox/rofi/ ~/.config/
+
+ 
